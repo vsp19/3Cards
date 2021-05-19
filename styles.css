@@ -1,0 +1,81 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+#content {
+  padding: 10% 15%;
+}
+.vehicle-heading {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  line-height: 2.5;
+}
+.vehicle-content {
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+  padding: 5% 5%;
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 5% 5%;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+  padding: 5% 5%;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 40% 0 20px;
+  border-radius: 28px;
+  font-family: "Lexend Deca";
+}
+.button:hover {
+  color: hsl(0, 0%, 95%);
+  border: 3px solid hsl(0, 0%, 95%);
+}
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
+.btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 1028px) {
+    .sedan{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+}
